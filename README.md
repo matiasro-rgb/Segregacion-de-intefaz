@@ -1,1 +1,3 @@
 # Segregacion-de-intefaz
+[Segregación de Interfaz.zip](https://github.com/user-attachments/files/34052667/Segregacion.de.Interfaz.zip)
+Este principio dice que una clase no debe estar obligada a utilizar métodos que no necesita, en este código se separan las acciones en tres interfaces Enviable, Remplazable y Expirable. Cada una tiene un método diferente, la clase Fisico utiliza las interfaces Enviable y Remplazable, por lo que puede enviar y reemplazar el producto. La clase Digital utiliza la interfaz Expirable, por lo que puede indicar que el producto expiró, así, cada clase implementa solamente los métodos que necesita.
